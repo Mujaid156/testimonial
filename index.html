@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Testimonial</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
+      integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <!-- External Script -->
+    <script
+      src="https://kit.fontawesome.com/2b41decd56.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- Set up your HTML -->
+    <div class="testi-container">
+      <div id="slider" class="owl-carousel">
+        <div class="content-area">
+          <div class="content">
+            <div class="img-area">
+              <img src="./images/pexels-justin-shaifer-1222271.jpg" alt="" />
+            </div>
+            <h2>name</h2>
+            <h4>job class</h4>
+            <q>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea
+              aperiam alias quod excepturi molestias quidem ipsam. Recusandae
+              animi nobis hic minima ipsa, quas sit, doloribus consequuntur,
+              quam temporibus molestiae. Maiores.</q
+            >
+            <p class="social">
+              <i class="fab fa-facebook"></i>
+              <i class="fab fa-instagram-square"></i>
+              <i class="fab fa-twitter-square"></i>
+            </p>
+          </div>
+        </div>
+        <div class="content-area">
+          <div class="content">
+            <div class="img-area">
+              <img src="./images/pexels-christina-morillo-1181519.jpg" alt="" />
+            </div>
+            <h2>name</h2>
+            <h4>job class</h4>
+            <q
+              >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam
+              itaque nesciunt quod enim magnam sit explicabo quos, molestias
+              quia illum quas qui ad id ducimus. Quo, corporis. In?
+            </q>
+            <p class="social">
+              <i class="fab fa-facebook"></i>
+              <i class="fab fa-instagram-square"></i>
+              <i class="fab fa-twitter-square"></i>
+            </p>
+          </div>
+        </div>
+        <div class="content-area">
+          <div class="content">
+            <div class="img-area">
+              <img src="./images/pexels-daniel-xavier-1239291.jpg" alt="" />
+            </div>
+            <h2>name</h2>
+            <h4>job class</h4>
+            <q
+              >Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Consequuntur cupiditate odio explicabo quisquam culpa quod beatae
+              voluptatum, eius consectetur corporis aliquid nam consequatur
+              ipsum deleniti hic eaque quidem vero officia iusto quibusdam
+              deserunt praesentium tempora molestias incidunt. Molestiae.
+            </q>
+            <p class="social">
+              <i class="fab fa-facebook"></i>
+              <i class="fab fa-instagram-square"></i>
+              <i class="fab fa-twitter-square"></i>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      $(document).ready(function () {
+        $(".owl-carousel").owlCarousel({
+          items: 1,
+          margin: 50,
+          loop: true,
+          stagePadding: 100,
+          dots: false,
+          autoplay: true,
+        });
+      });
+    </script>
+  </body>
+</html>
